@@ -1,0 +1,8 @@
+.message {
+  display: flex;
+  flex-direction: column;
+}
+.furniture {
+  width: 350px;
+  height: 178px;
+}

@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
     <title>Ecommerce</title>
     <link rel="stylesheet" href="./asset/css/general.css" />
     <link rel="stylesheet" href="./asset/css/header.css" />
     <link rel="stylesheet" href="./asset/css/hero.css" />
+    <link rel="stylesheet" href="./asset/css/message.css" />
     <link rel="icon" type="image/x-icon" href="./asset/images/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,49 +22,75 @@
     />
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
+
   <body>
     <div class="overlay"></div>
     <!-- Header Section -->
     <header class="head">
       <!-- Container for logo -->
-      <div class="logo">
+      <div class="headerhead">
+        <div class="logo">
+          <img
+            src="./asset/images/logo_white.png"
+            alt="Ecommerce logo"
+            title="Ecommerce logo"
+          />
+        </div>
+        <!-- Container for navigation bar -->
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Container for feather icons -->
+        <div class="icons">
+          <a class="icons" href="#"><i data-feather="user"></i></a>
+          <a class="icons" href="#"><i data-feather="shopping-cart"></i></a>
+          <a class="icons" href="#"><i data-feather="menu"></i></a>
+        </div>
+      </div>
+      <!-- New product and shop now section -->
+      <section class="herosect">
+        <div class="hero">
+          <!-- Product text -->
+          <div class="collection">
+            <h2>New Product Collection</h2>
+          </div>
+          <!-- Shop button -->
+          <div>
+            <a class="shop" href="#"><strong>SHOP NOW</strong></a>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Message Section -->
+
+    <section class="message">
+      <!-- Furniture collection -->
+      <div class="furniture">
         <img
-          src="./asset/images/logo_white.png"
-          alt="Ecommerce logo"
-          title="Ecommerce logo"
+          class="t"
+          src="./asset/images/furn.jpg"
+          alt="furniture collection"
+          title="furniture collection"
         />
       </div>
-      <!-- Container for navigation bar -->
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
 
-      <!-- Container for feather icons -->
-      <div class="icons">
-        <a class="icons" href="#"><i data-feather="user"></i></a>
-        <a class="icons" href="#"><i data-feather="shopping-cart"></i></a>
-        <a class="icons" href="#"><i data-feather="menu"></i></a>
-      </div>
-    </header>
-    <!-- Hero Section -->
-    <section class="herosect">
-      <div class="hero">
-        <!-- Product text -->
-        <div class="collection">
-          <h2>New Product Collection</h2>
-        </div>
-        <!-- Shop button -->
-        <div>
-          <a class="shop" href="#"><strong>SHOP NOW</strong></a>
-        </div>
+      <!-- Basket colletion -->
+      <div class="basket">
+        <img
+          class="b"
+          src="./asset/images/bask.jpg"
+          alt="basket collection"
+          title="basket collection"
+        />
       </div>
     </section>
-    <!-- Section ended -->
     <script>
       feather.replace();
     </script>

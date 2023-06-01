@@ -1,9 +1,11 @@
 /* Mobile */
 .herosect {
-  height: 50vh;
+  margin-top: -10rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  width: 15rem;
 }
 
 .hero {
@@ -11,8 +13,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20rem;
-  height: 10rem;
+  width: 17rem;
+  height: 8rem;
   background-color: rgba(255, 255, 255, 0.7);
   margin: 2rem;
   margin-top: 10rem;
@@ -37,9 +39,9 @@
   position: absolute;
   width: 72px;
   height: 32px;
-  top: 100px;
+  top: 90px;
   text-align: center;
-  left: 120px;
+  left: 100px;
   color: black;
   font-family: dosis;
   font-size: 16px;
@@ -54,8 +56,9 @@
 
 @media screen and (min-width: 1100px) {
   .hero {
-    width: 521px;
-    height: 204px;
+    width: 400px;
+    height: 184px;
+    margin-bottom: 0px;
   }
 
   /* Product text */
@@ -71,7 +74,7 @@
     width: 100px;
     height: 32px;
     font-size: 20px;
-    margin-left: 90px;
+    margin-left: 50px;
     top: 120px;
   }
 }
