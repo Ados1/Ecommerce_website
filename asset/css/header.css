@@ -52,6 +52,10 @@
     color: white;
     text-decoration: none;
   }
+
+  .menu a:hover {
+    color: brown;
+  }
   .menu ul {
     display: flex;
     justify-content: space-between;

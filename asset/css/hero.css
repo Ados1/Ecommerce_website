@@ -46,6 +46,9 @@
   font-style: normal;
   font-weight: 500;
 }
+.shop:hover {
+  color: brown;
+}
 
 /* Desktop */
 
