@@ -1,38 +1,32 @@
 /* Message section */
 .message {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  flex-direction: column;
-  position: absolute;
 }
 
 /* furniture message */
 .furniture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 50px;
   background-image: url("../images/furn.jpg");
   background-size: cover;
   width: 350px;
   height: 178px;
-  position: absolute;
   top: 20px;
 }
 
-/* Container for text */
+/* Container for furniture text */
 
 .textf {
-  position: absolute;
+  position: relative;
   width: 8rem;
   height: 6rem;
   left: 1.5rem;
   top: 30px;
 }
 
-/* Container for h1 */
+/* Container for furniture h1 */
 .newf {
   width: 8.5rem;
   height: 3.2rem;
@@ -42,7 +36,7 @@
   text-align: center;
 }
 
-/* Container for shop button */
+/* Container for furniture shop button */
 .shopfurn {
   position: relative;
   width: 3rem;
@@ -67,31 +61,26 @@
   color: black;
 }
 
-/* basket image */
+/* Basket image */
 .basket {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 20px;
   background-image: url("..//images/bask.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 350px;
   height: 178px;
-  position: absolute;
-  top: 250px;
 }
-/* Container for text */
+/* Container for basket text */
 
 .textb {
-  position: absolute;
+  position: relative;
   width: 8rem;
   height: 6rem;
   left: 1.5rem;
   top: 30px;
 }
 
-/* Container for h1 */
+/* Container for basket h1 */
 .newb {
   width: 8.5rem;
   height: 3.2rem;
@@ -101,7 +90,7 @@
   text-align: center;
 }
 
-/* Container for shop button */
+/* Container for basket shop button */
 .shopbas {
   position: relative;
   width: 3rem;
@@ -118,17 +107,69 @@
   color: rgb(89, 53, 8);
 }
 
-/* Container for line beside shop button */
+/* Container for  line beside shop button */
 .shopib {
   position: relative;
-  left: -52px;
-  bottom: -369px;
+  left: 111px;
+  bottom: 1px;
   color: black;
 }
 
+/* Tablet styling */
 @media screen and (min-width: 700px) {
+  /* Message section */
   .message {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  .furniture {
+    width: 48%;
+    height: 178px;
+  }
+
+  .basket {
+    width: 48%;
+    height: 178px;
+    margin-top: 50px;
+  }
+}
+
+/* Desktop styling */
+
+@media screen and (min-width: 1000px) {
+  /* Message Section */
+
+  .furniture {
+    width: 48%;
+    height: 19rem;
+  }
+  .basket {
+    width: 48%;
+    height: 19rem;
+  }
+  .textf {
+    top: 5rem;
+  }
+
+  .newf {
+    width: 20rem;
+    text-align: left;
+  }
+  .textb {
+    top: 5.5rem;
+  }
+
+  .newb {
+    width: 20rem;
+    text-align: left;
+  }
+
+  .shopib {
+    top: 3.7rem;
   }
 }

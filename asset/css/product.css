@@ -1,0 +1,527 @@
+/* Recent product styling */
+.recent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 190rem;
+  margin-top: 2rem;
+}
+
+.recent:first-child {
+  margin-top: 10px;
+}
+
+/* Container for best product text */
+.best {
+  width: 12.5rem;
+  height: 1.6rem;
+  font-family: poppins;
+  font-style: normal;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+/* Container for christopher */
+
+.christopher {
+  width: 350px;
+  height: 350px;
+
+  background-image: url("../images/pr1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for Christoper text */
+.chris {
+  position: relative;
+  width: 131px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for Christopher amount */
+.Achris {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 140px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for Wheats */
+.wheats {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/pr2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for Wheats text */
+.whe {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for wheats amount */
+.Awhe {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 140px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for Adidas */
+.adidas {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/pr3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for Adidas text */
+.adi {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for Adidas amount */
+.Aadis {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 148px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for desk */
+.desk {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/pr4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for desk text */
+.de {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for desk amount */
+.Ade {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 150px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for ripple */
+.ripple {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/pr5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for ripple text */
+.ri {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for ripple amount */
+.Ari {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 156px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for Economical */
+.economical {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/pr6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for economical text */
+.eco {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for economical amount */
+.Aec {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 150px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for Michael */
+.michael {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/pr7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for michael text */
+.mi {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for michael amount */
+.Ami {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 152px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for bostanten */
+.bostanten {
+  width: 350px;
+  height: 350px;
+  background-image: url("../images/pr8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.rectangle {
+  width: 350px;
+  height: 350px;
+  background-color: rgba(52, 48, 48, 0.5);
+}
+
+/* Container for bostanten text */
+.bos {
+  position: relative;
+  width: 141px;
+  height: 44px;
+  top: -220px;
+  left: 108px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Container for bostanten amount */
+.Abos {
+  position: relative;
+  width: 72px;
+  height: 18px;
+  top: -190px;
+  left: 140px;
+  color: white;
+  font-family: poppins;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* Tablet styling */
+@media screen and (min-width: 700px) {
+  .recent {
+    width: 100%;
+    height: 782px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .best {
+    width: 100%;
+  }
+
+  /* Product styling */
+  .christopher {
+    width: 220px;
+    height: 220px;
+  }
+
+  .rectangle {
+    width: 220px;
+    height: 220px;
+    background-color: rgba(52, 48, 48, 0.5);
+  }
+  .wheats {
+    width: 220px;
+    height: 220px;
+  }
+
+  .adidas {
+    width: 220px;
+    height: 220px;
+  }
+  .desk {
+    width: 220px;
+    height: 220px;
+  }
+  .ripple {
+    width: 220px;
+    height: 220px;
+  }
+  .economical {
+    width: 220px;
+    height: 220px;
+  }
+  .michael {
+    width: 220px;
+    height: 220px;
+    left: -75px;
+  }
+  .bostanten {
+    width: 220px;
+    height: 220px;
+    left: -150px;
+  }
+  .chris,
+  .Achris,
+  .whe,
+  .Awhe,
+  .adi,
+  .Aadis,
+  .de,
+  .Ade,
+  .ri,
+  .Ari,
+  .eco,
+  .Aec,
+  .mi,
+  .Ami,
+  .bos,
+  .Abos {
+    left: 45px;
+    top: -145px;
+  }
+
+  /* Amount styling */
+  .Achris,
+  .Awhe,
+  .Aadis,
+  .Ade,
+  .Ari,
+  .Aec,
+  .Ami,
+  .Abos {
+    left: 90px;
+  }
+}
+
+/* Desktop styling */
+@media screen and (min-width: 1100px) {
+  .recent {
+    width: 100%;
+    height: 677px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .best {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Product title styling */
+  .christopher,
+  .wheats,
+  .adidas,
+  .desk,
+  .ripple,
+  .economical,
+  .michael,
+  .bostanten {
+    width: 280px;
+    height: 280px;
+  }
+
+  .bostanten,
+  .economical,
+  .michael {
+    left: 2px;
+  }
+
+  .rectangle {
+    width: 280px;
+    height: 280px;
+    background-color: rgba(52, 48, 48, 0.5);
+  }
+  /* Product styling */
+  .chris,
+  .Achris,
+  .whe,
+  .Awhe,
+  .adi,
+  .Aadis,
+  .de,
+  .Ade,
+  .ri,
+  .Ari,
+  .eco,
+  .Aec,
+  .mi,
+  .Ami,
+  .bos,
+  .Abos {
+    left: 75px;
+    top: -175px;
+  }
+  /* Amount styling */
+  .Achris,
+  .Awhe,
+  .Aadis,
+  .Ade,
+  .Ari,
+  .Aec,
+  .Ami,
+  .Abos {
+    top: -160px;
+    left: 110px;
+  }
+}
