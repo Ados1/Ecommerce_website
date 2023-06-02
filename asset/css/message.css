@@ -1,8 +1,134 @@
+/* Message section */
 .message {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
   flex-direction: column;
+  position: absolute;
 }
+
+/* furniture message */
 .furniture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-image: url("../images/furn.jpg");
+  background-size: cover;
   width: 350px;
   height: 178px;
+  position: absolute;
+  top: 20px;
+}
+
+/* Container for text */
+
+.textf {
+  position: absolute;
+  width: 8rem;
+  height: 6rem;
+  left: 1.5rem;
+  top: 30px;
+}
+
+/* Container for h1 */
+.newf {
+  width: 8.5rem;
+  height: 3.2rem;
+  font-family: poppins;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Container for shop button */
+.shopfurn {
+  position: relative;
+  width: 3rem;
+  height: 2rem;
+  top: 20px;
+  margin-left: 8px;
+  font-family: dosis;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+.shopfurn:hover {
+  color: rgb(89, 53, 8);
+}
+
+/* Container for line beside shop button */
+.shopi {
+  position: absolute;
+  left: 80px;
+  bottom: 1px;
+  color: black;
+}
+
+/* basket image */
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-image: url("..//images/bask.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 178px;
+  position: absolute;
+  top: 250px;
+}
+/* Container for text */
+
+.textb {
+  position: absolute;
+  width: 8rem;
+  height: 6rem;
+  left: 1.5rem;
+  top: 30px;
+}
+
+/* Container for h1 */
+.newb {
+  width: 8.5rem;
+  height: 3.2rem;
+  font-family: poppins;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Container for shop button */
+.shopbas {
+  position: relative;
+  width: 3rem;
+  height: 2rem;
+  top: 20px;
+  left: 15px;
+  font-family: dosis;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+.shopbas:hover {
+  color: rgb(89, 53, 8);
+}
+
+/* Container for line beside shop button */
+.shopib {
+  position: relative;
+  left: -52px;
+  bottom: -369px;
+  color: black;
+}
+
+@media screen and (min-width: 700px) {
+  .message {
+    display: flex;
+    flex-direction: row;
+  }
 }
