@@ -1,0 +1,202 @@
+/* Styling of recent news section */
+.recentnews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* container for text */
+.news {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* Container for first product */
+.optimize {
+  margin-top: 40px;
+  width: 350px;
+  height: 350px;
+  background-image: url("/asset/images/b1.jpg");
+}
+
+/* container for date in first product ,second and third product*/
+.date {
+  position: relative;
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: rgba(255, 255, 255, 0.83);
+  top: 18px;
+  left: 20px;
+}
+
+.day {
+  position: relative;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  top: 6px;
+  left: 6px;
+}
+
+/* day */
+.datenum {
+  position: relative;
+  top: 10px;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 800;
+  line-height: 14.52px;
+  text-align: center;
+}
+
+/* month */
+.month {
+  position: relative;
+  top: 15px;
+  font-size: 12px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 800;
+  line-height: 14.52px;
+  text-align: center;
+}
+
+/* Container for text in first product   */
+.optitext {
+  position: relative;
+  top: 168px;
+  width: 18rem;
+  height: 2rem;
+  left: 31px;
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+/* Container for "read more" button  for first, second and third product*/
+.read {
+  position: relative;
+  top: 198px;
+  width: 76px;
+  height: 32px;
+  left: 30px;
+  color: black;
+  font-weight: 700;
+  font-style: normal;
+  font-family: dosis;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.read:hover {
+  color: brown;
+}
+
+/* Container for hyphen */
+
+.info {
+  position: relative;
+  top: 175px;
+  left: 100px;
+  color: black;
+}
+
+/* Container for second product */
+.understand {
+  margin-top: 40px;
+  width: 350px;
+  height: 350px;
+  background-image: url("/asset/images/b2.jpg");
+  position: relative;
+  top: -10px;
+}
+
+/* Container for text in second product   */
+.understext {
+  position: relative;
+  top: 168px;
+  width: 18rem;
+  height: 2rem;
+  left: 31px;
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+/* Container for third product */
+.effective {
+  position: relative;
+  top: -20px;
+  margin-top: 40px;
+  width: 350px;
+  height: 350px;
+  background-image: url("/asset/images/b3.jpg");
+}
+
+/* Container for text in third product   */
+.effectext {
+  position: relative;
+  top: 168px;
+  width: 18rem;
+  height: 2rem;
+  left: 31px;
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 700px) {
+  .colort {
+    display: flex;
+    width: 692px;
+    height: 694px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .optimize,
+  .understand,
+  .effective {
+    width: 330px;
+    height: 330px;
+  }
+
+  .understand {
+    top: 0.7px;
+  }
+
+  .effective {
+    left: -170px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .colort {
+    display: flex;
+    width: 1206px;
+    height: 439px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .optimize,
+  .understand,
+  .effective {
+    width: 380px;
+    height: 380px;
+  }
+
+  .effective {
+    top: 1.5px;
+    left: 2px;
+  }
+}
