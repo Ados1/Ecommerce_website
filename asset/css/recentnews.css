@@ -21,7 +21,7 @@
   margin-top: 40px;
   width: 350px;
   height: 350px;
-  background-image: url("./asset/images/b1.jpg");
+  background-image: url("../asset/images/b1.jpg");
 }
 
 /* container for date in first product ,second and third product*/
@@ -112,7 +112,7 @@
   margin-top: 40px;
   width: 350px;
   height: 350px;
-  background-image: url("./asset/images/b2.jpg");
+  background-image: url(../asset/images/b2.jpg");
   position: relative;
   top: -10px;
 }
@@ -136,7 +136,7 @@
   margin-top: 40px;
   width: 350px;
   height: 350px;
-  background-image: url("./asset/images/b3.jpg");
+  background-image: url("../asset/images/b3.jpg");
 }
 
 /* Container for text in third product   */
