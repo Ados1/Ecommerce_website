@@ -20,7 +20,7 @@
   font-family: poppins;
   font-style: normal;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 
@@ -364,17 +364,23 @@
 
 /* Tablet styling */
 @media screen and (min-width: 700px) {
+  /* container for products styling */
   .recent {
-    width: 100%;
-    height: 782px;
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+    height: 782px;
   }
 
+  /* title styling */
   .best {
     width: 100%;
+    position: relative;
+    top: 5px;
   }
 
   /* Product styling */
@@ -412,13 +418,15 @@
   .michael {
     width: 220px;
     height: 220px;
-    left: -75px;
+    left: -120px;
   }
   .bostanten {
     width: 220px;
     height: 220px;
-    left: -150px;
+    left: -120px;
   }
+
+  /* Product text styling */
   .chris,
   .Achris,
   .whe,
@@ -454,18 +462,24 @@
 
 /* Desktop styling */
 @media screen and (min-width: 1100px) {
+  /* Container for products styling */
   .recent {
-    width: 100%;
-    height: 677px;
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 1.5rem;
+    margin: 1rem;
   }
+
+  /* title styling */
 
   .best {
     width: 100%;
     text-align: center;
+    position: relative;
+    top: 20px;
   }
 
   /* Product title styling */
@@ -477,8 +491,8 @@
   .economical,
   .michael,
   .bostanten {
-    width: 280px;
-    height: 280px;
+    width: 17.5rem;
+    height: 17.5rem;
   }
 
   .bostanten,
@@ -488,10 +502,11 @@
   }
 
   .rectangle {
-    width: 280px;
-    height: 280px;
+    width: 17.5rem;
+    height: 17.5rem;
     background-color: rgba(52, 48, 48, 0.5);
   }
+
   /* Product styling */
   .chris,
   .Achris,
@@ -512,6 +527,7 @@
     left: 75px;
     top: -175px;
   }
+
   /* Amount styling */
   .Achris,
   .Awhe,

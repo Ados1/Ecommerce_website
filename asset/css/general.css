@@ -1,9 +1,11 @@
+/* general styling */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* overlay styling */
 .overlay {
   position: absolute;
   top: 0;

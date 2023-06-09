@@ -1,0 +1,207 @@
+/* footer section  */
+.foot {
+  width: 100%;
+  height: 480px;
+  background-color: #efefef;
+  position: relative;
+}
+
+/* logo for footer  */
+.footlog {
+  position: absolute;
+  top: 42px;
+  left: 12px;
+}
+
+/* shop location styling  */
+.loc {
+  display: flex;
+  position: absolute;
+  top: 85px;
+  width: 17rem;
+  height: 24px;
+  left: 13px;
+}
+
+.locate {
+  margin-left: 15px;
+  font-size: 1rem;
+  font-family: poppins;
+  font-weight: 900;
+}
+
+/* shop email address container styling  */
+.addres {
+  display: flex;
+  position: absolute;
+  top: 115px;
+  width: 17rem;
+  height: 24px;
+  left: 13px;
+}
+.email {
+  margin-left: 15px;
+  font-size: 1rem;
+  font-family: poppins;
+  font-weight: 900;
+}
+
+/* shop phone number container styling  */
+.phone {
+  display: flex;
+  position: absolute;
+  top: 150px;
+  width: 17rem;
+  height: 24px;
+  left: 13px;
+}
+
+.phonenum {
+  margin-left: 15px;
+  font-size: 1rem;
+  font-family: poppins;
+  font-weight: 900;
+}
+
+/* text in footer styling  */
+.foottext {
+  position: absolute;
+  width: 20rem;
+  height: 3.4rem;
+  top: 230px;
+  left: 13px;
+  font-family: poppins;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/* form and button container styling  */
+.fbn {
+  display: flex;
+
+  position: absolute;
+  width: 337px;
+  left: 12px;
+  top: 300px;
+}
+
+/* Form styling  */
+.fbn form input {
+  width: 290px;
+  height: 40px;
+  border: 1.5px solid #d9d9d9;
+  padding-left: 10px;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* button styling  */
+.fbn button {
+  width: 3rem;
+  height: 2.5rem;
+  background-color: #d9d9d9;
+  border: none;
+}
+
+/* line styling */
+.line {
+  position: absolute;
+  width: 337px;
+  height: 0.2px;
+  top: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  left: 13px;
+}
+
+/* all rights reserved container styling  */
+.rights {
+  position: absolute;
+  top: 420px;
+  left: 12px;
+  font-family: poppins;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+/* Tablet styling */
+@media screen and (min-width: 700px) {
+  /* footer section */
+  .foot {
+    width: 100%;
+    height: 18.3rem;
+    top: 100px;
+  }
+
+  /* logo for footer */
+
+  .footlog,
+  .loc,
+  .addres,
+  .phone {
+    left: 50px;
+  }
+
+  /* text in footer styling */
+  .foottext {
+    top: 73px;
+    left: 400px;
+  }
+
+  /* shop email address container styling */
+  .addres {
+    top: 115px;
+  }
+
+  /* form and button container styling */
+
+  .fbn {
+    top: 145px;
+    left: 400px;
+  }
+
+  /* line styling */
+  .line {
+    top: 220px;
+    left: 50px;
+    width: 680px;
+  }
+
+  /* all rights reserved styling */
+  .rights {
+    top: 250px;
+    left: 50px;
+  }
+}
+
+/* desktop styling */
+@media screen and (min-width: 1100px) {
+  .foot {
+    width: 100vw;
+  }
+  /* text in footer styling  */
+  .foottext {
+    left: 830px;
+  }
+
+  /* form and button container styling  */
+  .fbn {
+    left: 830px;
+  }
+
+  /* line styling */
+  .line {
+    width: 1040px;
+  }
+
+  /* content positioning */
+  .footlog,
+  .loc,
+  .addres,
+  .phone,
+  .rights,
+  .line {
+    left: 130px;
+  }
+}

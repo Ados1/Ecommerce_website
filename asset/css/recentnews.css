@@ -153,15 +153,18 @@
 
 /* Tablet styling */
 @media screen and (min-width: 700px) {
+  .recentnews {
+    top: 20px;
+  }
   /* Container for three products */
   .colort {
     display: flex;
-    width: 692px;
-    height: 694px;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 1.5rem;
+    margin: 1rem;
   }
 
   /* The three products sizing */
@@ -188,25 +191,35 @@
   /* Container for three products */
   .colort {
     display: flex;
-    width: 1206px;
-    height: 439px;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 1.5rem;
+    margin: 1rem;
   }
 
-  /* The three products sizing */
+  /* products sizing */
   .optimize,
   .understand,
   .effective {
     width: 380px;
     height: 380px;
+    top: -40px;
   }
 
-  /* Third product centering */
+  /* text container styling */
+  .news {
+    margin-bottom: 20px;
+  }
+
+  /* First product styling */
+  .optimize {
+    margin-top: -40px;
+  }
+
+  /* Third product sizing */
   .effective {
-    top: 1.5px;
     left: 2px;
   }
 }

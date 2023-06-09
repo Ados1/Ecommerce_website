@@ -66,9 +66,11 @@
     text-decoration: none;
   }
 
+  /* menu styling */
   .menu a:hover {
     color: brown;
   }
+
   .menu ul {
     display: flex;
     justify-content: space-between;
